@@ -24,9 +24,9 @@ author:
   avatar           : "headshot.jpg"
   name             : "Nick Morse"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher waith expertise in large-eddy simulation and direct numerical simulation of turbulent boundary layers, jets, and multiphase flows."
+  bio              : "Researcher with expertise in large-eddy simulation and direct numerical simulation of turbulent boundary layers, jets, and multiphase flows."
   location         : "Graz, Austria"
-  employer         : "Research Center Pharmaceutical Engineering"
+  employer         : "RCPE GmbH"
   uri              : # URL
   email            : "ntmorse4@gmail.com" 
 
@@ -76,10 +76,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  thesis:
-    title: 'Thesis'
   journal_papers:
-    title: 'Journal Articles'    
+    title: 'Journal Papers'   
+  thesis:
+    title: 'Thesis' 
   conference_papers:
     title: 'Conference Papers'
   conference_abstracts:
@@ -132,7 +132,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # &twitter
 facebook:
   username               :
   app_id                 :
@@ -215,16 +215,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
