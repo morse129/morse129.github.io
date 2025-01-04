@@ -1,7 +1,7 @@
 ---
 title: "Large-eddy simulation of submerged marine vehicles"
 collection: publications
-category: conference-papers
+category: conference_papers
 permalink: /publication/2022-06-26-large-eddy-simulation-of-submerged-marine-vehicles
 excerpt: 'Overset LES of the DARPA SUBOFF and DTMB 4381 propeller in crashback.'
 date: 2022-06-26

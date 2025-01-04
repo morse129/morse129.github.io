@@ -1,7 +1,7 @@
 ---
 title: "Streamline coordinate analysis of the flow past an axisymmetric body computed by large-eddy simulation"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2021-11-21-streamline-coordinate-analysis-of-the-flow-past-an-axisymmetric-body-computed-by-large-eddy-simulation
 excerpt: 'Streamline coordinate analysis of flow around the axisymmetric DARPA SUBOFF.'
 date: 2021-11-21

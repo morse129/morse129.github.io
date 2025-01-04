@@ -1,7 +1,7 @@
 ---
 title: "Optimized timing schemes for multi-pulse shake-the-box particle tracking velocimetry"
 collection: publications
-category: conference-papers
+category: conference_papers
 permalink: /publication/2023-01-23-optimized-timing-schemes-for-multi-pulse-shake-the-box-particle-tracking-velocimetry
 excerpt: 'Optimized PTV sampling of particle trajectories from canonical DNS examples.'
 date: 2023-01-23

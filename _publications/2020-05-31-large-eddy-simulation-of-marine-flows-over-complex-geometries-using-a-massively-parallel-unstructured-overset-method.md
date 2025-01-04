@@ -1,7 +1,7 @@
 ---
 title: "Large-eddy simulation of marine flows over complex geometries using a massively parallel unstructured overset method"
 collection: publications
-category: conference-papers
+category: conference_papers
 permalink: /publication/2020-05-31-large-eddy-simulation-of-marine-flows-over-complex-geometries-using-a-massively-parallel-unstructured-overset-method
 excerpt: 'Demonstration of overset method capability to simulate flow around the DARPA SUBOFF and the DTMB 4381 propeller in forward mode and crashback.'
 date: 2020-05-31

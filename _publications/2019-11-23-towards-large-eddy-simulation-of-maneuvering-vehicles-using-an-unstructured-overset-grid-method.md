@@ -1,7 +1,7 @@
 ---
 title: "Towards large-eddy simulation of maneuvering vehicles using an unstructured overset grid method"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2019-11-23-towards-large-eddy-simulation-of-maneuvering-vehicles-using-an-unstructured-overset-grid-method
 excerpt: 'Advancement of an unstructured overset grid method to simulate hull shapes and 6-DOF controlled bodies.'
 date: 2019-11-23

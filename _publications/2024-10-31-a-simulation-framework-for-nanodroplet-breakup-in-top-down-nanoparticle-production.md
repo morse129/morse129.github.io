@@ -1,7 +1,7 @@
 ---
 title: "A simulation framework for nanodroplet breakup in top-down nanoparticle production"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2024-10-31-a-simulation-framework-for-nanodroplet-breakup-in-top-down-nanoparticle-production
 excerpt: 'Development of a boundary-element method for small-scale droplet breakup.'
 date: 2024-10-31

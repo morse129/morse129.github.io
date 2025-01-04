@@ -1,7 +1,7 @@
 ---
 title: "The shear layer structure of a tabbed jet in crossflow"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2022-11-20-the-shear-layer-structure-of-a-tabbed-jet-in-crossflow
 excerpt: 'The shear layer structure of a tabbed jet in cross-flow is revealed through DNS and DMD.'
 date: 2022-11-20

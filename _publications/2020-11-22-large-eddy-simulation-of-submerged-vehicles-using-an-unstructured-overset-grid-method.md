@@ -1,7 +1,7 @@
 ---
 title: "Large-eddy simulation of submerged vehicles using an unstructured overset grid method"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2020-11-22-large-eddy-simulation-of-submerged-vehicles-using-an-unstructured-overset-grid-method
 excerpt: 'Advancement of an unstructured overset grid method to simulate appended self-propelled bodies.'
 date: 2020-11-22

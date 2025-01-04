@@ -1,7 +1,7 @@
 ---
 title: "Investigation of particle lift off in a turbulent boundary layer"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2017-11-19-investigation-of-particle-lift-off-in-a-turbulent-boundary-layer
 excerpt: 'Experimental particle tracking of sphere lift-off in a turbulent boundary layer.'
 date: 2017-11-19

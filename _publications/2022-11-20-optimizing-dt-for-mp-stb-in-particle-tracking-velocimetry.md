@@ -1,7 +1,7 @@
 ---
 title: "Optimizing dt for MP-STB in particle tracking velocimetry"
 collection: publications
-category: conference-abstracts
+category: conference_abstracts
 permalink: /publication/2022-11-20-optimizing-dt-for-mp-stb-in-particle-tracking-velocimetry
 excerpt: 'An assessment of multi-pulse shake-the-box timing schemes using particle tracks from DNS.'
 date: 2022-11-20
