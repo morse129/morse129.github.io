@@ -1,0 +1,17 @@
+---
+title: "Tripping effects on model-scale studies of flow over the DARPA SUBOFF"
+collection: publications
+category: journal_papers
+permalink: /publication/2023-11-15-tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff
+excerpt: 'Trip-resolved LES reveals hull and appendage tripping effects on moderate Reynolds number model-scale studies.'
+date: 2023-11-15
+venue: 'Journal of Fluid Mechanics'
+teaser: '/images/tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff-graph-abs.jpg'
+slidesurl: 
+paperurl: '/files/tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff.pdf'
+citation: 'Morse, N., & Mahesh, K. (2023). &quot;Tripping effects on model-scale studies of flow over the DARPA SUBOFF&quot; <i>Journal of Fluid Mechanics</i>. 975, A3.'
+---
+
+## Abstract 
+
+Trip-resolved large-eddy simulations of the DARPA SUBOFF are performed to investigate the development of turbulent boundary layers (TBLs) in model-scale studies. The primary consideration of the study is the extent to which the details of tripping affect statistics in large-eddy simulations of complex geometries, which are presently limited to moderate Reynolds number TBLs. Two trip wire configurations are considered, along with a simple numerical trip (wall-normal blowing), which serves as an exemplar of artificial computational tripping methods often used in practice. When the trip wire height exceeds the laminar boundary layer thickness, shedding from the trip wire initiates transition, and the near field is characterized by an elevation of the wall-normal Reynolds stress and a modification of the turbulence anisotropy and mean momentum balance. This trip wire also induces a large jump in the boundary layer thickness, which affects the way in which the TBL responds to the pressure gradients and streamwise curvature of the hull. The trip-induced turbulence decays along the edge of the TBL as a wake component that sits on top of the underlying TBL structure, which dictates the evolution of the momentum and displacement thicknesses. In contrast, for a trip wire height shorter than the laminar boundary layer thickness, transition is initiated at the reattachment point of the trip-induced recirculation bubble, and the artificial trip reasonably replicates the resolved trip wire behaviour relatively shortly downstream of the trip location. For each case, the inner layer collapses rapidly in terms of the mean profile, Reynolds stresses and mean momentum balance, which is followed by the collapse of the Reynolds stresses in coordinates normalized by the local momentum thickness, and finally against the $99\%$ thickness. By this point, the lasting impact of the trip is the offset in boundary layer thickness due to the trip itself, which becomes a diminishing fraction of the total boundary layer thickness as the TBL grows. The importance of tripping the model appendages is also highlighted due to their lower Reynolds numbers and susceptibility to laminar separations.
