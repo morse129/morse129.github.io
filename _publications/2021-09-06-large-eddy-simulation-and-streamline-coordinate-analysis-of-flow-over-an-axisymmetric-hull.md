@@ -3,6 +3,7 @@ title: "Large-eddy simulation and streamline coordinate analysis of flow over an
 author: [Nicholas Morse, Krishnan Mahesh]
 year: 2021
 #journal: Journal of Fluid Mechanics
+type: journal
 collection: publications
 category: journal_papers
 permalink: /publication/2021-09-06-large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull
