@@ -6,9 +6,9 @@ permalink: /publication/2023-09-06-large-eddy-simulation-and-streamline-coordina
 excerpt: 'Streamline coordinates provide a new perspective on curved turbulent boundary layers.'
 date: 2023-09-06
 venue: 'Journal of Fluid Mechanics'
-teaser: 'large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull-graph-abs.jpg'
+teaser: /publications/large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull-graph-abs.jpg
 slidesurl: 
-paperurl: 'large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull.pdf'
+paperurl: '/files/large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull.pdf'
 citation: 'Morse, N., & Mahesh, K. (2023). &quot;Large-eddy simulation and streamline coordinate analysis of flow over an axisymmetric hull&quot; <i>Journal of Fluid Mechanics</i>. 926, A18.'
 ---
 
