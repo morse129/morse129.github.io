@@ -2,14 +2,14 @@
 title: "Large-eddy simulation and streamline coordinate analysis of flow over an axisymmetric hull"
 collection: publications
 category: journal_papers
-permalink: /publication/2023-09-06-large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull
+permalink: /publication/2021-09-06-large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull
 excerpt: 'Streamline coordinates provide a new perspective on curved turbulent boundary layers.'
-date: 2023-09-06
+date: 2021-09-06
 venue: 'Journal of Fluid Mechanics'
 teaser: /publications/large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull-graph-abs.jpg
 slidesurl: 
 paperurl: '/files/large-eddy-simulation-and-streamline-coordinate-analysis-of-flow-over-an-axisymmetric-hull.pdf'
-citation: 'Morse, N., & Mahesh, K. (2023). &quot;Large-eddy simulation and streamline coordinate analysis of flow over an axisymmetric hull&quot; <i>Journal of Fluid Mechanics</i>. 926, A18.'
+citation: 'Morse, N., & Mahesh, K. (2021). &quot;Large-eddy simulation and streamline coordinate analysis of flow over an axisymmetric hull&quot; <i>Journal of Fluid Mechanics</i>. 926, A18.'
 ---
 
 ## Abstract 
