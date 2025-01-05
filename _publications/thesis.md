@@ -5,7 +5,6 @@ category: thesis
 permalink: /publication/thesis
 excerpt: 'LES and DNS of a variety of complex flows using an in-house unstructured overset method.'
 date: 2023-05-01
-venue: 
 teaser:
 slidesurl: 
 paperurl: 'https://hdl.handle.net/11299/257091'
