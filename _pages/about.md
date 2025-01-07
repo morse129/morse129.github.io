@@ -47,7 +47,7 @@ Robert H. & Marjorie F. Jewitt Fund Scholarship, 2017
 
 ## Experience
 
-![image-center](/images/droplet_pinch_off.jpg){: .align-center}
+![image-center](/images/droplet_pinch_off.png){: .align-center}
 
 ### Senior Scientist (2023 - Present) and Group Leader for Multiscale CFD (2025 - Present)
 [Research Center Pharmaceutical Engineering (RCPE)](https://www.rcpe.at/)
