@@ -23,7 +23,8 @@ author:
   # Biographic information
   avatar           : "headshot.jpg"
   name             : "Nick Morse"
-  pronouns         : # example: "she/her"  
+  alt_name         : "Nicholas Morse"
+  pronouns         : Senior Scientist # example: "she/her"  
   bio              : "Researcher with expertise in large-eddy simulation and direct numerical simulation of turbulent boundary layers, jets, and multiphase flows."
   location         : "Graz, Austria"
   employer         : "RCPE GmbH"
@@ -90,7 +91,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"

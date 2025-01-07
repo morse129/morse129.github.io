@@ -1,6 +1,6 @@
 ---
 title: "Tripping effects on model-scale studies of flow over the DARPA SUBOFF"
-authors: [Nicholas Morse, Krishnan Mahesh]
+author: [Nicholas Morse, Krishnan Mahesh]
 collection: publications
 category: journal_papers
 permalink: /publication/2023-11-15-tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff
