@@ -6,7 +6,7 @@ permalink: /publication/2023-02-27-effect-of-tabs-on-the-shear-layer-dynamics-of
 excerpt: 'DNS reveals tab-induced secondary vortices in a jet in cross-flow.'
 date: 2023-02-27
 venue: 'Journal of Fluid Mechanics'
-teaser: '/images/effect-of-tabs-on-the-shear-layer-dynamics-of-a-jet-in-cross-flow-graph-abs.jpg'
+teaser: /publications/effect-of-tabs-on-the-shear-layer-dynamics-of-a-jet-in-cross-flow-graph-abs.jpg
 slidesurl: 
 paperurl: '/files/effect-of-tabs-on-the-shear-layer-dynamics-of-a-jet-in-cross-flow.pdf'
 citation: 'Morse, N., & Mahesh, K. (2023). &quot;Effect of tabs on the shear layer dynamics of a jet in cross-flow&quot; <i>Journal of Fluid Mechanics</i>. 958, A6.'

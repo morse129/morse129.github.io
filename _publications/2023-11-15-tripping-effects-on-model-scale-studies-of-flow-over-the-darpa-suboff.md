@@ -6,7 +6,7 @@ permalink: /publication/2023-11-15-tripping-effects-on-model-scale-studies-of-fl
 excerpt: 'Trip-resolved LES reveals hull and appendage tripping effects on moderate Reynolds number model-scale studies.'
 date: 2023-11-15
 venue: 'Journal of Fluid Mechanics'
-teaser: '/images/tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff-graph-abs.jpg'
+teaser: /publications/tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff-graph-abs.jpg
 slidesurl: 
 paperurl: '/files/tripping-effects-on-model-scale-studies-of-flow-over-the-darpa-suboff.pdf'
 citation: 'Morse, N., & Mahesh, K. (2023). &quot;Tripping effects on model-scale studies of flow over the DARPA SUBOFF&quot; <i>Journal of Fluid Mechanics</i>. 975, A3.'
