@@ -43,7 +43,7 @@
     {% if post.collection == 'projects'%}
       {% assign authors = '' %}
       {% for author in post.author %}
-        {% if author == site.author.name or author == site.author.alt_name %}
+        {% if author == site.author.name || author == site.author.alt_name %}
           {% assign authors_updated = authors | append: ", <b>" | append: author | append: "</b>" %}
         {% else %}
           {% assign authors_updated = authors | append: ", " | append: author %}
@@ -118,7 +118,7 @@
     {% if post.collection == 'publications'%}
       {% assign authors = '' %}
       {% for author in post.author %}
-        {% if author == site.author.name %}
+        {% if author == site.author.name || author == site.author.alt_name %}
           {% assign authors_updated = authors | append: ", <b>" | append: author | append: "</b>" %}
         {% else %}
           {% assign authors_updated = authors | append: ", " | append: author %}
