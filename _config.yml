@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "headshot.jpg"
   name             : "Nick Morse"
-  alt_name         : "Nicholas Morse"
+  altname          : "Nicholas Morse"
   position         : "Senior Scientist @ RCPE GmbH"
   pronouns         : # example: "she/her"  
   bio              : "Researcher with expertise in large-eddy simulation and direct numerical simulation of turbulent boundary layers, jets, and multiphase flows."
