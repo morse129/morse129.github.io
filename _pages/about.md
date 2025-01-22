@@ -20,7 +20,7 @@ Explore to find my research highlights and publications!
 
 **PhD** in Aerospace Engineering & Mechanics, University of Minnesota, 2023
 * Thesis: [*High-fidelity unstructured overset simulation of complex turbulent flows*](https://hdl.handle.net/11299/257091)
-* Advisor: [Professor Krishnan Mahesh](https://name.engin.umich.edu/people/mahesh-krishnan/)
+* Adviser: [Professor Krishnan Mahesh](https://name.engin.umich.edu/people/mahesh-krishnan/)
 
 **MS** in Aerospace Engineering & Mechanics, University of Minnesota, 2020
 
