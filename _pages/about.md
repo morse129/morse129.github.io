@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 
-## About Me
-
 I received my PhD in May 2023 under the supervision of [Professor Krishnan Mahesh](https://name.engin.umich.edu/people/mahesh-krishnan/) at the University of Minnesota. The focus of my research is the insight that can be extracted from direct numerical simulation (DNS) and large-eddy simulation (LES) of highly complex turbulent flows, including complex turbulent boundary layers and jets in crossflow. I am currently the Group Leader for Multiscale Computational Fluid Dynamics (CFD) at the [Research Center Pharmaceutical Engineering (RCPE)](https://www.rcpe.at/) in Graz, Austria, where I was previously a Senior Scientist working on the development of a boundary element method (BEM) for small-scale droplets.
 
 Explore to find my research highlights and publications!
@@ -49,7 +47,8 @@ Robert H. & Marjorie F. Jewitt Fund Scholarship, 2017
 
 ![image-center](/images/droplet_pinch_off.png){: .align-center}
 
-### Senior Scientist (2023 - Present) and Group Leader for Multiscale CFD (2025 - Present)
+### Group Leader for Multiscale CFD (2025 - Present)
+### Senior Scientist (2023 - Present) 
 [Research Center Pharmaceutical Engineering (RCPE)](https://www.rcpe.at/)
 
 * Led the simulation strategy development for an EU Horizon 2020 project.
