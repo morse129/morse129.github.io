@@ -33,61 +33,32 @@ layout: default
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-
+        
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-
-        {% assign authors = '' %}
-        {% for author in page.author %}
-        {% if author == site.author.name %}
-        {% assign authors_updated = authors | append: ", <b>" | append: author | append: "</b>" %}
-        {% else %}
-        {% assign authors_updated = authors | append: ", " | append: author %}
-        {% endif %}
-        {% assign authors = authors_updated %}
-        {% endfor %}
-
-        {% if authors != '' %}
-          <p>
-          <b>Authors:</b> {{authors | replace_first: ", ", ""}}
-          </p>
-        {% endif %}
-
-        {% if page.abstract %}
-          <b>Abstract:</b>
-          <p>{{page.abstract}}</p>
-        {% endif %}
-
-        {% if page.citation and page.paperurl %}
-          <p><b>Recommended citation:</b> {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p><b>Recommended citation:</b> {{ page.citation }} </p>
-        {% endif %}
-
-        {% if page.downloads %}
-        <p>
-          <b>Resources:</b>
-          {% for download in page.downloads %}
-          {% if download[1] contains '://' %}
-          {% assign url = download[1] %}
-          {% else %}
-          {% assign url = base_path | append: download[1] %}
-          {% endif %}
-          [<a href="{{url}}">{{download[0] | capitalize}}</a>]
-          {% endfor %}
-        </p>
-        {% endif %}
-
+        {% endif %}    
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.citation and page.paperurl and page.slidesurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.citation and page.paperurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+        {% elsif page.citation and page.slidesurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.citation %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        {% elsif page.slidesurl %}
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
@@ -116,7 +87,7 @@ layout: default
       {% endif %}
       <div class="grid__wrapper">
         {% for post in site.related_posts limit:4 %}
-          {% include archive-single-custom.html type="grid" %}
+          {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
     </div>
