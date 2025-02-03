@@ -60,7 +60,7 @@ layout: default
 
         {% if page.abstract %}
           <b>Abstract:</b>
-          <p>{{page.abstract}}</p>
+          <p>{{ page.abstract | markdownify }}</p>
         {% endif %}
 
         {% if page.citation and page.paperurl %}
