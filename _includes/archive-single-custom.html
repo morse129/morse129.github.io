@@ -51,7 +51,7 @@
     {% if post.collection == 'projects'%}
       {% assign authors = '' %}
       {% for author in post.author %}
-        {% if author == site.author.name || author == site.author.altname %}
+        {% if author == site.author.name or author == site.author.altname %}
           {% assign authors_updated = authors | append: ", <b>" | append: author | append: "</b>" %}
         {% else %}
           {% assign authors_updated = authors | append: ", " | append: author %}
@@ -77,14 +77,8 @@
       {% endif %}
 
 
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.linkurl }}">Link to Publication</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.linkurl }}">Link to Publication</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+    {% if post.paperurl and post.slidesurl %}
+      <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.linkurl }}">Link to Publication</a></p>
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
     {% elsif post.slidesurl %}
@@ -128,7 +122,7 @@
     {% if post.collection == 'publications'%}
       {% assign authors = '' %}
       {% for author in post.author %}
-        {% if author == site.author.name || author == site.author.altname %}
+        {% if author == site.author.name or author == site.author.altname %}
           {% assign authors_updated = authors | append: ", <b>" | append: author | append: "</b>" %}
         {% else %}
           {% assign authors_updated = authors | append: ", " | append: author %}
@@ -154,14 +148,8 @@
       {% endif %}
 
 
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.linkurl }}">Link to Publication</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.linkurl }}">Link to Publication</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+    {% if post.paperurl and post.slidesurl %}
+      <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.linkurl }}">Link to Publication</a></p>
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
     {% elsif post.slidesurl %}
