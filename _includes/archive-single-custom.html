@@ -77,12 +77,12 @@
       {% endif %}
 
 
-    {% if post.paperurl and post.slidesurl %}
+    {% if post.paperurl and post.linkurl %}
       <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.linkurl }}">Link to Publication</a></p>
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.linksurl }}">Link to Publication</a></p>
+    {% elsif post.linkurl %}
+      <p><a href="{{ post.linkurl }}">Link to Publication</a></p>
     {% endif %}
     
 
@@ -147,13 +147,12 @@
         </p>
       {% endif %}
 
-
-    {% if post.paperurl and post.slidesurl %}
+    {% if post.paperurl and post.linkurl %}
       <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.linkurl }}">Link to Publication</a></p>
     {% elsif post.paperurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.linksurl }}">Link to Publication</a></p>
+    {% elsif post.linkurl %}
+      <p><a href="{{ post.linkurl }}">Link to Publication</a></p>
     {% endif %}
 
 

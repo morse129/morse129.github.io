@@ -1,5 +1,6 @@
 ---
 layout: default
+math: true
 ---
 
 {% include base_path %}
@@ -44,7 +45,7 @@ layout: default
 
         {% assign authors = '' %}
         {% for author in page.author %}
-        {% if author == site.author.name %}
+        {% if author == site.author.name or author == site.author.altname %}
         {% assign authors_updated = authors | append: ", <b>" | append: author | append: "</b>" %}
         {% else %}
         {% assign authors_updated = authors | append: ", " | append: author %}
@@ -60,16 +61,23 @@ layout: default
 
         {% if page.abstract %}
           <b>Abstract:</b>
-          <p>{{ page.abstract | markdownify }}</p>
+          <div class="math-content">{{ page.abstract | markdownify | strip_newlines }}</div>
+          <!-- <p>{{ page.abstract | markdownify }}</p> -->
         {% endif %}
 
-        {% if page.citation and page.paperurl %}
-          <p><b>Recommended citation:</b> {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p><b>Recommended citation:</b> {{ page.citation }} </p>
         {% endif %}
 
-        {% if page.downloads %}
+        {% if page.paperurl and page.linkurl %}
+          <p><b>Resources:</b> <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.linkurl }}">Link to Publication</a></p>
+        {% elsif page.paperurl %}
+          <p><b>Resources:</b> <a href=" {{ page.paperurl }} ">Download Paper</a></p>
+        {% elsif page.linkurl %}
+          <p><b>Resources:</b> <a href="{{ page.linkurl }}">Link to Publication</a></p>
+        {% endif %}
+
+        <!-- {% if page.downloads %}
         <p>
           <b>Resources:</b>
           {% for download in page.downloads %}
@@ -81,7 +89,7 @@ layout: default
           [<a href="{{url}}">{{download[0] | capitalize}}</a>]
           {% endfor %}
         </p>
-        {% endif %}
+        {% endif %} -->
 
         </header>
       {% endunless %}

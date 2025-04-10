@@ -201,6 +201,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Math
+math: true  # Enable MathJax
 
 # Markdown Processing
 kramdown:
