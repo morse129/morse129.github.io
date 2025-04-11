@@ -86,5 +86,5 @@ Robert H. & Marjorie F. Jewitt Fund Scholarship, 2017
 [University of Minnesota Formula SAE](https://gophermotorsports.com)
 
 * Chief engineer of a team of 70 students
-* Programmed [MATLAB graphical user interface](https://github.com/morse129/MultiElementWingGenerator) to parameterize multi-element wing profiles
+* Programmed [MATLAB graphical user interface](https://github.com/nick-morse/MultiElementWingGenerator) to parameterize multi-element wing profiles
 * Automated large-scale ANSYS CFX simulations at the Minnesota Supercomputing Institute
