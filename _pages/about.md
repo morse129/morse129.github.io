@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## Hi there! 👋
 
 I'm a postdoc at the KTH Royal Institute of Technology in Stockholm, Sweden, studying curvature and rotation effects on transitional and turbulent flows.
 

@@ -24,11 +24,11 @@ author:
   avatar           : "headshot.jpg"
   name             : "Nick Morse"
   altname          : "Nicholas Morse"
-  position         : "Senior Scientist @ RCPE GmbH"
+  position         : "Postdoc @ KTH Royal Institute of Technology"
   pronouns         : # example: "she/her"  
   bio              : "Researcher with expertise in large-eddy simulation and direct numerical simulation of turbulent boundary layers, jets, and multiphase flows."
-  location         : "Graz, Austria"
-  employer         : "RCPE GmbH"
+  location         : "Stockholm, Sweden"
+  employer         : "KTH Royal Institute of Technology"
   uri              : # URL
   email            : "ntmorse4@gmail.com" 
 
