@@ -7,10 +7,33 @@ redirect_from:
   - /about.html
 ---
 
+## Hi there! 👋
 
-I received my PhD in May 2023 under the supervision of [Professor Krishnan Mahesh](https://name.engin.umich.edu/people/mahesh-krishnan/) at the University of Minnesota. The focus of my research is the insight that can be extracted from direct numerical simulation (DNS) and large-eddy simulation (LES) of highly complex turbulent flows, including complex turbulent boundary layers and jets in crossflow. I am currently the Group Leader for Multiscale Computational Fluid Dynamics (CFD) at the [Research Center Pharmaceutical Engineering (RCPE)](https://www.rcpe.at/) in Graz, Austria, where I was previously a Senior Scientist working on the development of a boundary element method (BEM) for small-scale droplets.
+I'm a postdoc at the KTH Royal Institute of Technology in Stockholm, Sweden, studying curvature and rotation effects on transitional and turbulent flows.
+
+Previously, I was a Senior Scientist at the Research Center Pharmaceutical Engineering (RCPE) in Graz, Austria working on resolving breakup of sub-Kolmogorov-scale droplets.
+
+I received my PhD in May 2023 under the supervision of Professor Krishnan Mahesh at the University of Minnesota. The focus of my dissertation was the insight that can be extracted from direct numerical simulation (DNS) and large-eddy simulation (LES) of highly complex turbulent flows, including curved turbulent boundary layers, boundary layer trip memory effects, and jets in crossflow. 
+
 
 Explore to find my research highlights and publications!
+
+
+## Research interests
+
+* Fluid dynamics
+* Turbulence
+* High performance computing
+* Direct numerical simulation (DNS) and large-eddy simulation (LES)
+* Adaptive mesh refinement algorithms
+* Heterogeneous (GPU) computing
+* Multiphase flows
+
+
+
+## Service
+
+Co-organizer of an international workshop at the Banff International Research Station: [*Particulates across Scales: Mathematical Modeling, Computation, and Applications*](https://www.birs.ca/events/2025/5-day-workshops/25w5387)
 
 
 
@@ -24,12 +47,6 @@ Explore to find my research highlights and publications!
 
 **BAEM** in Aerospace Engineering & Mechanics, University of Minnesota, 2018
 * Minors: Math, Astrophysics
-
-
-
-## Service
-
-Co-organizer of an international workshop at the Banff International Research Station: [*Particulates across Scales: Mathematical Modeling, Computation, and Applications*](https://www.birs.ca/events/2025/5-day-workshops/25w5387)
 
 
 
@@ -47,7 +64,7 @@ Robert H. & Marjorie F. Jewitt Fund Scholarship, 2017
 
 ![image-center](/images/droplet_pinch_off.png){: .align-center}
 
-### Group Leader for Multiscale CFD (2025 - Present) and Senior Scientist (2023 - Present) 
+### Group Leader for Multiscale CFD (August 2025 - April 2025) and Senior Scientist (2023 - Present) 
 [Research Center Pharmaceutical Engineering (RCPE)](https://www.rcpe.at/)
 
 * Led the simulation strategy development for an EU Horizon 2020 project.
