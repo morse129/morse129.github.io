@@ -10,9 +10,9 @@ redirect_from:
 
 I'm a Postdoctoral Researcher at the KTH Royal Institute of Technology in Stockholm, Sweden, studying curvature and rotation effects on transitional and turbulent flows.
 
-Previously, I was a Senior Scientist at the Research Center Pharmaceutical Engineering (RCPE) in Graz, Austria working on resolving breakup of sub-Kolmogorov-scale droplets.
+Previously, I was a Senior Scientist at the [Research Center Pharmaceutical Engineering (RCPE)](https://www.rcpe.at/) in Graz, Austria working on resolving breakup of sub-Kolmogorov-scale droplets.
 
-I received my PhD in May 2023 under the supervision of Professor Krishnan Mahesh at the University of Minnesota. The focus of my dissertation was the insight that can be extracted from direct numerical simulation (DNS) and large-eddy simulation (LES) of highly complex turbulent flows, including curved turbulent boundary layers, boundary layer trip memory effects, and jets in crossflow. 
+I received my PhD in May 2023 under the supervision of [Professor Krishnan Mahesh](https://name.engin.umich.edu/people/mahesh-krishnan/) at the University of Minnesota. The focus of my dissertation was the insight that can be extracted from direct numerical simulation (DNS) and large-eddy simulation (LES) of highly complex turbulent flows, including curved turbulent boundary layers, boundary layer trip memory effects, and jets in crossflow. 
 
 
 Explore to find my research highlights and publications!
